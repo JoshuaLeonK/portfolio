@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="JoshuaLeonK">
+  <meta name="description" content="Portafolio de desarrollo web de JoshuaLeonK">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React, Portafolio, JoshuaLeonK, Desarrollo, Web">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>JoshuaLeonK | Desarrollo Web Full-Stack</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/desarrollador-ejemplo.svg"
+        alt="Foto de Joshua">
+      <h1>Hola, soy Joshua!</h1>
+      <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+      <!--Animación con JavaScript-->
+      <h2 class="text-primary mb-4" id="typewriter"></h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg"
+        alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Joshua</h2>
+      <p class="seccion-texto">¡Hola! Soy Joshua, un apasionado desarrollador full stack en constante búsqueda de nuevos
+        retos y aprendizajes. Actualmente estoy cursando Ingeniería de Sistemas, complementando mi formación con
+        diversos cursos en plataformas como Google, Platzi y mi universidad local.
+
+        Mi experiencia abarca múltiples lenguajes de programación como HTML, CSS y JavaScript, así como el uso fluido de
+        frameworks como Bootstrap, Angular, Tailwind y React. Me especializo en el desarrollo completo de proyectos,
+        desde la interfaz de usuario hasta el backend, donde tengo habilidades sólidas que me permiten llevar a cabo
+        proyectos de forma independiente.
+        Mi pasión por la tecnología y el desarrollo me impulsa a seguir aprendiendo y mejorando mis habilidades día a
+        día. Estoy siempre abierto a nuevas oportunidades para aplicar mis conocimientos y colaborar en proyectos
+        innovadores que desafíen mis capacidades.</p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Con dominio en HTML, CSS, JavaScript y experiencia en frameworks como Bootstrap, Angular, Tailwind y React,
+            me especializo en crear interfaces intuitivas y funcionales. Mi enfoque incluye también habilidades backend
+            para garantizar proyectos completos y eficientes desde el inicio hasta la implementación final.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+            <span class="badge text-bg-primary">Bootstrap</span>
+            <span class="badge text-bg-primary">Angular</span>
+            <span class="badge text-bg-primary">Tailwind</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Experiencia</p>
+          <p>He colaborado en varios proyectos web para clientes, aplicando mis habilidades en HTML, CSS, JavaScript y
+            frameworks como Bootstrap, Angular, Tailwind y React. Mi enfoque incluye tanto el desarrollo frontend como
+            el backend, asegurando soluciones completas y de alta calidad que cumplen con los requisitos específicos del
+            cliente.</p>
+          <!-- <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div> -->
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>Actualmente estoy cursando Ingeniería de Sistemas, donde continúo expandiendo mis conocimientos en
+            programación y desarrollo de software. Complemento mi formación con cursos en plataformas como Google,
+            Platzi y mi universidad local, manteniéndome al día con las últimas tecnologías y tendencias en el campo de
+            la informática.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Ingeniero de Sistemas</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">Python</span>
+            <span class="badge text-bg-primary">Desarrollo de Software</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="vpc1310.org" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="hombreorquestaenbarranquilla.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="digisoft.media" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          Proyecto 5 -->
+        <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        <!-- Proyecto 6
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+      </div>
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Testimonios
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+     Carrusel 
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section> -->
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:joshualion9@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://wa.me/573001501565" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp"
+          viewBox="0 0 16 16">
+          <path
+            d="M10.332 8.056c-.053-.105-.34-.622-.388-.695-.048-.074-.116-.116-.202-.063-.087.053-.38.22-.46.256-.08.037-.142.063-.21-.074-.068-.137-.272-.476-.328-.572-.057-.095-.148-.142-.265-.105-.117.037-.43.147-.826.474-.414.337-.688.723-.778.814-.09.092-.177.21-.125.355.052.145.337.866.42 1.075.083.21.148.262.29.262.142 0 .357-.147.57-.36.214-.213.314-.376.366-.523.052-.147.03-.273-.023-.387-.052-.114-.23-.587-.287-.73-.058-.143-.095-.19-.202-.265-.108-.075-.61-.377-.737-.453-.127-.076-.207-.102-.33-.113-.124-.012-.242-.018-.384.036-.142.054-.368.18-.482.394-.115.215-.178.434-.187.51-.008.076-.047.218-.075.292-.028.074-.058.147-.095.22-.036.073-.142.26-.19.345-.047.085-.102.173-.075.262.028.09.21.2.372.27.163.07.435.175.665.247.23.072.45.122.61.14.16.018.318.007.458-.02.14-.026.34-.106.495-.27.155-.164.322-.416.374-.645.053-.228.032-.51-.038-.74-.07-.23-.19-.45-.313-.62-.123-.17-.236-.29-.353-.345-.117-.054-.253-.077-.385-.042-.132.034-.27.124-.393.258-.123.134-.243.293-.32.478-.076.186-.113.397-.1.607.012.21.083.425.183.61.1.184.227.345.38.476.153.13.325.23.505.292.18.06.37.076.54.098.17.022.337.042.503-.027.166-.069.312-.194.452-.382.14-.188.274-.437.388-.647.114-.21.21-.38.297-.507.088-.126.168-.198.242-.285.073-.086.14-.175.186-.27.045-.094.07-.198.023-.286-.048-.088-.156-.27-.26-.36-.103-.09-.24-.163-.378-.21-.137-.047-.285-.064-.427-.05-.142.014-.28.07-.408.145-.128.075-.248.19-.373.335-.124.145-.26.317-.422.48-.163.162-.352.314-.557.46-.206.146-.427.283-.615.41-.188.127-.36.243-.492.335-.132.092-.218.16-.29.212-.072.053-.14.092-.202.12-.063.028-.13.042-.19.048a1.34 1.34 0 0 1-.233.003zm-4.34-6.21c.282-.003.558.118.777.326.22.208.365.49.409.773.044.283.03.562-.056.826-.085.264-.22.51-.387.73-.166.22-.36.412-.567.576-.207.165-.43.29-.673.378-.243.088-.495.14-.75.134a2.834 2.834 0 0 1-.98-.175c-.306-.116-.578-.308-.802-.562-.224-.254-.393-.567-.485-.9-.092-.333-.106-.694-.042-1.046.064-.353.2-.69.403-.995.202-.304.47-.575.784-.786.314-.21.666-.355 1.036-.422.37-.067.758-.046 1.123.063.365.11.714.307 1.006.586.292.28.53.63.698 1.017.169.387.266.802.268 1.224a3.107 3.107 0 0 1-.268 1.225c-.168.388-.406.737-.698 1.016-.292.28-.641.477-1.006.587-.365.11-.753.13-1.123.063-.37-.067-.722-.212-1.036-.422-.314-.21-.582-.481-.784-.785-.202-.305-.339-.642-.403-.995-.064-.352-.05-.713.042-1.046.092-.333.26-.646.485-.9.224-.254.496-.446.802-.562a2.835 2.835 0 0 1 .98-.175c.253-.007.506.026.75.134.243.088.466.213.673.378.207.165.496.34.777.326z" />
+        </svg>
+      </a>
+      <a href="mailto:joshualion9@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por JoshuaLeonK (2023) &#169;</div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+  <!-- Botón flotante de WhatsApp -->
+  <div class="floating-whatsapp">
+    <a href="https://wa.me/573001501565" target="_blank" rel="noopener noreferrer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chat-dots"
+        viewBox="0 0 16 16">
+        <path d="M0 2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-3.5l-3 3v-3H2a2 2 0 0 1-2-2V2z" />
+        <path d="M4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+      </svg>
+    </a>
+  </div>
+
+  </a>
+  </div>
+
+
+</body>
+
+</html>
